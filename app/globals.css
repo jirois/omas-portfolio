@@ -3,8 +3,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  
 }
 
 @theme {
@@ -48,10 +47,8 @@
   --tracking-mono: 0.05em;
 }
 
-* {
+*::before, a::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html {
@@ -59,9 +56,6 @@ html {
 }
 
 body {
-  background: #0a0a0a;
-  color: #e2e2e2;
-  font-family: 'Geist', sans-serif;
   overflow-x: hidden;
 }
 
